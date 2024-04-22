@@ -1,5 +1,5 @@
 # See https://hub.docker.com/r/babashka/babashka
-FROM babashka/babashka:1.0.164
+FROM common-dockerhub-remote.jfrog.teliacompany.io/babashka/babashka:0.6.1
 
 WORKDIR /var/src/release-on-push-action
 
